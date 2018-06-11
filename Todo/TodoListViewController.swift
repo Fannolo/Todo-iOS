@@ -24,6 +24,10 @@ class TodoListViewController: UITableViewController {
             itemArray = items
         }
         
+        tableView.separatorStyle = .none
+        
+        
+        
     }
     
     
@@ -36,6 +40,8 @@ class TodoListViewController: UITableViewController {
         let cell = UITableViewCell(style: .default, reuseIdentifier: "TodoItemCell")
         
         cell.textLabel?.text = itemArray[indexPath.row]
+        
+        
                 
         return cell
     }
