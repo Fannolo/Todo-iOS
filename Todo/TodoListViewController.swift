@@ -13,12 +13,16 @@ class TodoListViewController: UITableViewController {
     
     
     var itemArray = ["Buy Milk", "Buy Burritos", "Make Milk Burritos"]
+    
+    let defaults = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        
+    
+        if let items = defaults.array(forKey: "TodoListArray") as? [String] {
+            itemArray = items
+        }
         
     }
     
@@ -32,9 +36,7 @@ class TodoListViewController: UITableViewController {
         let cell = UITableViewCell(style: .default, reuseIdentifier: "TodoItemCell")
         
         cell.textLabel?.text = itemArray[indexPath.row]
-        
-        print(itemArray)
-        
+                
         return cell
     }
     
@@ -86,6 +88,8 @@ class TodoListViewController: UITableViewController {
 //                self.itemArray.append(textField.text!)
 //            }
             self.itemArray.append(textField.text!)
+            
+            self.defaults.set(self.itemArray, forKey: "TodoListArray")
             
             self.tableView.reloadData()
         }
