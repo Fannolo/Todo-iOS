@@ -33,13 +33,13 @@
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "todoiphone@2x.png",
+      "filename" : "Group 70.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "todoiphone@3x.png",
+      "filename" : "icon.png",
       "scale" : "3x"
     },
     {
@@ -80,19 +80,19 @@
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "todoipadmini@2x.png",
+      "filename" : "icon-1.png",
       "scale" : "2x"
     },
     {
       "size" : "83.5x83.5",
       "idiom" : "ipad",
-      "filename" : "todoipadpro@2x.png",
+      "filename" : "Group 68.png",
       "scale" : "2x"
     },
     {
       "size" : "1024x1024",
       "idiom" : "ios-marketing",
-      "filename" : "todoappstore@1x.png",
+      "filename" : "Group 69.png",
       "scale" : "1x"
     }
   ],
