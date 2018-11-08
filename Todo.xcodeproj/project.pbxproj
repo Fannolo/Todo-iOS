@@ -17,6 +17,7 @@
 		71673A4F216187FD0083A91B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71673A4E216187FD0083A91B /* Category.swift */; };
 		717F168D212EE4330031FD77 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717F168C212EE4330031FD77 /* CategoryViewController.swift */; };
 		E935137D21792CE1009D083A /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E935137C21792CE1009D083A /* SwipeTableViewController.swift */; };
+		E93A16FD21937900002380BE /* TestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93A16FC21937900002380BE /* TestingViewController.swift */; };
 		E93C82AC217F91F700E0183E /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C82AB217F91F700E0183E /* LottieViewController.swift */; };
 		E93C82AE217F9B2F00E0183E /* material_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = E93C82AD217F9B2F00E0183E /* material_loading.json */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		C64B6CE1AB76EC712161F759 /* Pods-Todo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Todo/Pods-Todo.debug.xcconfig"; sourceTree = "<group>"; };
 		E815686DE455D1443A85832C /* Pods-Todo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Todo/Pods-Todo.release.xcconfig"; sourceTree = "<group>"; };
 		E935137C21792CE1009D083A /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		E93A16FC21937900002380BE /* TestingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewController.swift; sourceTree = "<group>"; };
 		E93C82AB217F91F700E0183E /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		E93C82AD217F9B2F00E0183E /* material_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = material_loading.json; path = ../../../../../../../Downloads/material_loading.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +110,7 @@
 				7118234020CDDBE50046DCCD /* TodoListViewController.swift */,
 				E935137C21792CE1009D083A /* SwipeTableViewController.swift */,
 				E93C82AB217F91F700E0183E /* LottieViewController.swift */,
+				E93A16FC21937900002380BE /* TestingViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				717F168D212EE4330031FD77 /* CategoryViewController.swift in Sources */,
 				7118234120CDDBE50046DCCD /* TodoListViewController.swift in Sources */,
 				71673A4D216187F00083A91B /* Item.swift in Sources */,
+				E93A16FD21937900002380BE /* TestingViewController.swift in Sources */,
 				E93C82AC217F91F700E0183E /* LottieViewController.swift in Sources */,
 				7118233F20CDDBE50046DCCD /* AppDelegate.swift in Sources */,
 				E935137D21792CE1009D083A /* SwipeTableViewController.swift in Sources */,
